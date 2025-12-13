@@ -29,20 +29,20 @@
 Взяла пример из лекции. Развернула через docker-compose master и slave бд Postgress
 
 1. Запускаем контейнеры и проверяем их состояние
-
+```
 
     docker-compose up -d
 
     docker-compose ps
-
+```
 2. psql -h localhost -p 5432 -U postgres -d postgres
 Master сервер:
-
+```
     Хост: localhost
     Порт: 5432
     Пользователь: postgres
     Пароль: postgres
-
+```
 psql -h localhost -p 5433 -U postgres -d postgres
 
 Slave сервер:
