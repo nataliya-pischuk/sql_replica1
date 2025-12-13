@@ -1,6 +1,6 @@
 # sql_replica1
 
-    Запустите контейнеры:
+    Запуконтейнеры:
 
 docker-compose up -d
 
