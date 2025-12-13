@@ -30,9 +30,10 @@
 
 1. Запускаем контейнеры и проверяем их состояние
 
-docker-compose up -d
 
-docker-compose ps
+    docker-compose up -d
+
+    docker-compose ps
 
 2. psql -h localhost -p 5432 -U postgres -d postgres
 Master сервер:
