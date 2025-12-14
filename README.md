@@ -38,7 +38,8 @@
 ![alt text](img/docker.JPG)
 
 2. Подключаюсь к БД master
- psql -h localhost -p 5432 -U postgres -d postgres
+ psql -h localhost -p 5432 -U postgres -d postgres;
+
 Master сервер:
 ```
     Хост: localhost
@@ -49,7 +50,8 @@ Master сервер:
 ![alt text](img/master.JPG)
 
 3. Подключаюсь к БД slave
-psql -h localhost -p 5433 -U postgres -d postgres
+psql -h localhost -p 5433 -U postgres -d postgres;
+
 Slave сервер:
 
     Хост: localhost
