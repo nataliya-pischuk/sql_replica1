@@ -32,9 +32,11 @@
 ```
 
     docker-compose up -d
-
     docker-compose ps
 ```
+
+![alt text](img/docker.JPG)
+
 2. psql -h localhost -p 5432 -U postgres -d postgres
 Master сервер:
 ```
@@ -45,13 +47,19 @@ Master сервер:
 ```
 psql -h localhost -p 5433 -U postgres -d postgres
 
+![alt text](img/master.JPG)
 Slave сервер:
 
     Хост: localhost
     Порт: 5433
     Пользователь: postgres
     Пароль: postgres
+    
+![alt text](img/slave.JPG)
 
-3. Проводим тестирование, данные добавляю как из консоли, так и просматриваю через DBeaver
+3. Проводим тестирование, данные добавляю как из консоли, так и добавляю через DBeaver
 
-4. Проверка статуса репликации
+![alt text](img/master2.JPG)
+
+![alt text](img/slave2.JPG)
+
