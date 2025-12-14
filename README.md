@@ -37,7 +37,8 @@
 
 ![alt text](img/docker.JPG)
 
-2. psql -h localhost -p 5432 -U postgres -d postgres
+2. Подключаюсь к БД master
+ psql -h localhost -p 5432 -U postgres -d postgres
 Master сервер:
 ```
     Хост: localhost
@@ -45,9 +46,10 @@ Master сервер:
     Пользователь: postgres
     Пароль: postgres
 ```
-psql -h localhost -p 5433 -U postgres -d postgres
-
 ![alt text](img/master.JPG)
+
+3. Подключаюсь к БД slave
+psql -h localhost -p 5433 -U postgres -d postgres
 Slave сервер:
 
     Хост: localhost
@@ -57,7 +59,7 @@ Slave сервер:
     
 ![alt text](img/slave.JPG)
 
-3. Проводим тестирование, данные добавляю как из консоли, так и добавляю через DBeaver
+4. Проводим тестирование, данные добавляю как из консоли, так и добавляю через DBeaver
 
 ![alt text](img/master2.JPG)
 
