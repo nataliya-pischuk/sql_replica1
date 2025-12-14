@@ -27,6 +27,7 @@
 
 ## Решение 
 Взяла пример из лекции. Развернула через docker-compose master и slave бд Postgress
+https://github.com/eluzeon/pg-replica
 
 1. Запускаем контейнеры и проверяем их состояние
 ```
